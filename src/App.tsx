@@ -4,7 +4,7 @@ import CoursesPage from "./pages/courses"
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/student-dashboard/">
       <Routes>
         <Route path="/" element={<StudentsPage />} />
         <Route path="/courses" element={<CoursesPage />} />
